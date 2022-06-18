@@ -1,0 +1,236 @@
+    
+    
+
+    /* Naigation */ 
+    .navbar {
+      margin-bottom: 50px;
+      border-radius: 0;
+      background-color: #4885ed;
+    }
+ 
+
+
+    .navbar-inverse .navbar-nav > li > a {
+    color: #fff;
+    text-align: center; 
+    }
+
+    .navbar-inverse .navbar-nav > li > a:hover {
+  color: #fff;
+  background-color: #ef524a;
+    }
+
+    .navbar a:active {
+  color: #fff;
+  background-color: #ef524a;
+    }
+     
+     .jumbotron {
+      margin-bottom: 0;
+    }
+
+    /*Wording animation*/
+    
+    .typewriter p {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+
+/*Banner call to action*/
+   .banner{
+    margin-top: 30px;
+   }
+
+
+
+    /* End of  Naigation */
+
+    /*Banner styling*/
+
+    .container-slidershow{
+      max-width: 1500px;
+      position: relative;
+      margin: auto;
+
+      
+    }
+ 
+
+    
+
+    .carousel-caption{
+      position: absolute;
+     top: 50%;
+     left: 30%;
+     transform: translate(-50%, -50%);
+    }
+   .carousel-caption p{
+    font-weight: bold;
+   }
+
+  .carousel-caption h2{
+    font-weight: bold;
+    font-size: 40px;
+  }
+
+  .carousel-caption a{
+    background-color: #ef524a;
+    padding: 10px;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 50px !important;
+
+  }
+
+  .carousel-caption a:hover{
+     background-color: #1A4845;
+  }
+
+/*first body row carrier*/
+
+   .explore-button a{
+    background-color: #ef524a;
+    text-decoration: none;
+    padding: 10px; 
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+   }
+
+   .explore-button a:hover{
+    background-color: #4885ed;
+   }
+
+  .first h2{
+    font-weight: bold;
+    font-size: 14px;
+    color: #000 !important;
+    text-align: center;
+  }
+
+  .first p{
+    text-align: center;
+  }
+  
+  .first img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto
+  }
+
+
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+
+    
+  
+
+/*About Us*/
+.about-us a{
+   text-align: #fff;
+}
+
+/*Our Team*/
+.blocks{
+  
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+
+
+p.note{
+  color: #000;
+  font-weight: bold;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 50%;
+  margin-bottom: 10px;
+}
+
+.profile-title {
+  color: grey;
+}
+
+
+
+    
+.col-md-6 img {
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.container span {
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+
+/*Footer section*/
+
+.footer-headings h2{
+  color: #000;
+  font-weight: bold;
+  text-align: left;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-left: 30px;
+}
+
+.footer-headings li{
+  text-align: left;
+  text-align: left;
+}
+
+.footer-headings a:hover{
+  text-decoration: none;
+}
+
+
+/*Single product*/
+.woocom-list-content-single{
+ text-align: left;
+}
+
+
+
+
+
+
+  
+    
+  
